@@ -1,0 +1,2 @@
+# Ignore the dynamic content of notebooks, this will come from other sources
+notebooks/*
