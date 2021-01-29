@@ -9,11 +9,10 @@ class Furniture {
 	 * @return String Header HTML
 	 */
 	public function header() {
-?>
+		echo '
 <html>
 <body>
-
-<?php
+';
 	}
 
 	/**
@@ -22,12 +21,10 @@ class Furniture {
 	 * @return String Footer HTML
 	 */
 	public function footer() {
-?>
-
+		echo '
 </body>
 </html>
-
-<?php
+';
 	}
 
 }
