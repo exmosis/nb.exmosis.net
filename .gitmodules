@@ -1,0 +1,3 @@
+[submodule "ext/parsedown"]
+	path = ext/parsedown
+	url = https://github.com/erusev/parsedown.git
