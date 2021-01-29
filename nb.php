@@ -16,8 +16,6 @@ define('NOTEBOOK_DIR', 'notebooks');
 
 $url = $_GET['url'];
 
-$page_furniture->header();
-
 try {
 	$notebook_parser = new exmosis\Notebooks\NotebookParser(NOTEBOOK_DIR, $url);
 	$content = $notebook_parser->run();
