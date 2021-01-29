@@ -1,0 +1,8 @@
+AddType application/x-httpd-php .php
+Options -Indexes
+
+RewriteEngine On
+
+RewriteCond "%{REQUEST_URI}" "!nb\.php"
+RewriteRule ^(.*)$ /nb.php?url=$1 [L]
+
